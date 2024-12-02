@@ -1,0 +1,43 @@
+{
+  "product": {
+    "name": "Magic xpi",
+    "shortName": "xpi",
+    "vendor": "Magic Software Enterprises Ltd.",
+    "copyright": "© 2023 Magic Software Enterprises Ltd."
+  },
+  "branding": {
+    "loginTitle": "Welcome to Magic xpi",
+    "productTitle": "Magic xpi Monitor",
+    "favicon": "/assets/images/favicon.ico",
+    "logo": "/assets/images/logo.png"
+  },
+  "navigation": {
+    "home": "/dashboard",
+    "default": "/dashboard",
+    "login": "/auth/login",
+    "error": "/sessions/404",
+    "unauthorized": "/sessions/403"
+  },
+  "routes": {
+    "dashboard": {
+      "path": "dashboard",
+      "title": "Dashboard"
+    },
+    "messages": {
+      "path": "messages",
+      "title": "Messages"
+    },
+    "flows": {
+      "path": "flows",
+      "title": "Flows"
+    },
+    "triggers": {
+      "path": "triggers",
+      "title": "Triggers"
+    },
+    "servers": {
+      "path": "servers",
+      "title": "Servers"
+    }
+  }
+}
